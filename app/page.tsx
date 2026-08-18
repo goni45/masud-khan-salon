@@ -1,6 +1,6 @@
 import { getServices, getBarbers, getGalleryImages, getSalonInfo } from '@/lib/notion/get-services'
 import Header from '@/components/sections/Header'
-import HeroNew from '@/components/sections/HeroNew'
+import PremiumHero from '@/components/sections/PremiumHero'
 import ServicesSection from '@/components/sections/Services'
 import Gallery from '@/components/sections/Gallery'
 import BookingForm from '@/components/sections/BookingForm'
@@ -28,7 +28,7 @@ export default async function Home() {
     <>
       <Header />
       <main className="min-h-screen bg-[#0B0B0B]">
-        <HeroNew />
+        <PremiumHero />
         <ServicesSection services={services} />
         <Gallery images={galleryImages} />
         <BookingForm services={services} barbers={barbers} />
