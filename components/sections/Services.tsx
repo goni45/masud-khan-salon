@@ -75,7 +75,7 @@ export default function ServicesSection({ services }: { services: Service[] }) {
             >
               {/* Service Image */}
               {service.image && (
-                <div className="h-48 bg-[#0B0B0B] overflow-hidden">
+                <div className="h-40 md:h-48 bg-[#0B0B0B] overflow-hidden">
                   <img
                     src={service.image}
                     alt={service.name}
@@ -102,10 +102,10 @@ export default function ServicesSection({ services }: { services: Service[] }) {
                   <p className="text-gray-400 text-sm mb-4">{service.description}</p>
                 )}
 
-                <div className="flex justify-between items-center">
+                <div className="flex justify-between items-center flex-wrap gap-2">
                   {service.duration && (
-                    <span className="text-gray-500 text-sm flex items-center gap-1">
-                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <span className="text-gray-500 text-xs md:text-sm flex items-center gap-1">
+                      <svg className="w-3 h-3 md:w-4 md:h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                       </svg>
                       {service.duration}
@@ -113,7 +113,7 @@ export default function ServicesSection({ services }: { services: Service[] }) {
                   )}
                   <button
                     onClick={() => handleSelectService(service)}
-                    className="px-6 py-2 bg-[#D4AF37] text-black font-bold rounded-lg hover:bg-[#B8960C] transition-all duration-300"
+                    className="px-4 py-2 md:px-6 md:py-2 bg-[#D4AF37] text-black text-sm md:text-base font-bold rounded-lg hover:bg-[#B8960C] transition-all duration-300"
                   >
                     Book Now
                   </button>

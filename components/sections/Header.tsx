@@ -53,7 +53,7 @@ export default function Header() {
               rel="noopener noreferrer"
               className="px-6 py-2 border-2 border-[#D4AF37] text-[#D4AF37] font-bold rounded-lg hover:bg-[#D4AF37] hover:text-black transition-all duration-300"
             >
-              💬 WhatsApp
+              WhatsApp
             </a>
           </nav>
 

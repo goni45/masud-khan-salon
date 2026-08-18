@@ -47,7 +47,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.5 }}
         >
-          <h2 className="text-5xl md:text-7xl font-bold mb-6">
+          <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
             <span className="text-white">Men's </span>
             <span className="text-[#D4AF37]">Salon</span>
           </h2>
@@ -58,7 +58,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.8 }}
-          className="text-xl md:text-2xl text-gray-400 mb-8"
+          className="text-lg md:text-xl lg:text-2xl text-gray-400 mb-8 px-4"
         >
           The Art of Modern Grooming
         </motion.p>
@@ -68,16 +68,16 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 1 }}
-          className="flex flex-wrap justify-center gap-4 mb-12 text-sm md:text-base"
+          className="flex flex-wrap justify-center gap-3 mb-12 text-xs md:text-sm px-4"
         >
-          <span className="px-4 py-2 border border-[#D4AF37] text-[#D4AF37] rounded-full">
-            ✂️ Customized Haircut & Beard Design
+          <span className="px-3 py-1.5 border border-[#D4AF37] text-[#D4AF37] rounded-full whitespace-nowrap">
+            Customized Haircut & Beard Design
           </span>
-          <span className="px-4 py-2 border border-[#D4AF37] text-[#D4AF37] rounded-full">
-            💎 VIP Zone
+          <span className="px-3 py-1.5 border border-[#D4AF37] text-[#D4AF37] rounded-full whitespace-nowrap">
+            VIP Zone
           </span>
-          <span className="px-4 py-2 border border-[#D4AF37] text-[#D4AF37] rounded-full">
-            🤵 Bridal Grooming
+          <span className="px-3 py-1.5 border border-[#D4AF37] text-[#D4AF37] rounded-full whitespace-nowrap">
+            Bridal Grooming
           </span>
         </motion.div>
 
@@ -100,7 +100,7 @@ export default function Hero() {
             rel="noopener noreferrer"
             className="px-8 py-4 border-2 border-[#D4AF37] text-[#D4AF37] font-bold rounded-lg hover:bg-[#D4AF37] hover:text-black transition-all duration-300"
           >
-            💬 WhatsApp
+            WhatsApp
           </a>
         </motion.div>
       </div>

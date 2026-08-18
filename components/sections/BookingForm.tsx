@@ -229,7 +229,7 @@ export default function BookingForm({ services, selectedService, barbers = [] }:
               animate={{ opacity: 1, y: 0 }}
               className="text-center text-green-400 bg-green-400/10 border border-green-400/30 rounded-lg p-4"
             >
-              ✅ Booking confirmed! We'll contact you shortly.
+              Booking confirmed! We'll contact you shortly.
             </motion.div>
           )}
 
@@ -239,7 +239,7 @@ export default function BookingForm({ services, selectedService, barbers = [] }:
               animate={{ opacity: 1, y: 0 }}
               className="text-center text-red-400 bg-red-400/10 border border-red-400/30 rounded-lg p-4"
             >
-              ❌ Something went wrong. Please try again or contact us directly.
+              Something went wrong. Please try again or contact us directly.
             </motion.div>
           )}
         </motion.form>
@@ -266,7 +266,7 @@ export default function BookingForm({ services, selectedService, barbers = [] }:
               href="tel:+8801304603705"
               className="px-6 py-3 border-2 border-[#D4AF37] text-[#D4AF37] font-bold rounded-lg hover:bg-[#D4AF37] hover:text-black transition-all duration-300"
             >
-              📞 Call Now
+              Call Now
             </a>
           </div>
         </motion.div>

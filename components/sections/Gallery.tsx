@@ -65,8 +65,8 @@ export default function Gallery({ images = [] }: { images?: GalleryImage[] }) {
                   />
                 ) : (
                   <div className="text-center">
-                    <div className="text-6xl mb-2">✂️</div>
-                    <p className="text-[#D4AF37] font-medium">{image.title}</p>
+                    <div className="text-4xl md:text-6xl mb-2 text-[#D4AF37]">✂</div>
+                    <p className="text-[#D4AF37] font-medium text-sm md:text-base">{image.title}</p>
                   </div>
                 )}
               </div>
